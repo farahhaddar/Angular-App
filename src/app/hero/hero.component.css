@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+/* main cont */
+.heroCont {
+  height: 500px;
+}
+
+/* Hero image */
+
+.imageCont {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  z-index: -1;
+}
+
+.hero {
+  opacity: 0.7;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  z-index: 1;
+}
+
+/* slogans */
+
+.slogan {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  width: 86%;
+  margin: auto;
+  margin-top: 6%;
+  cursor: grab;
+}
+.mainSlogan {
+  font-size: 40px;
+  font-weight: bold;
+}
+.secondSlogan {
+  font-size: 16px;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 347px) {
+  .heroCont,
+  .hero,
+  .imageCont {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .secondSlogan {
+    display: none;
+  }
+}

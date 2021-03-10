@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* main contaior */
+.all {
+  overflow-x: auto;
+}
+.Cards {
+  display: flex;
+  justify-content: space-between;
+  min-width: 1030px !important;
+  margin: auto;
+
+}
+/* card Contaionr */
+.cardCont {
+  width: 330px !important;
+  height: fit-content;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+img {
+  border-radius: 4px 4px 0px 0px;
+}
+/* content */
+.contentCont {
+  margin: 15px;
+}
+.tagLine {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dot {
+  color: rgba(20, 120, 202, 0.822);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tags {
+  font-family: "Poppins";
+  color: #3c3c3c;
+  font-size: 16px;
+}
+.tagdata {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.icons {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.iconsdata {
+  margin-top: 10px;
+}
+
+/* car footer */
+.avatar img {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+.flexData {
+  display: flex;
+  flex-direction: row;
+}
+.avatarText {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.avatarText {
+  margin-left: 10px;
+}
+.avatarText div:first-child {
+  font-size: 20px;
+}
+
+.avatarText div:nth-child(2) {
+  font-size: 16px;
+  color: #8a8787;
+  margin-top: 5px;
+}
+
+.finalData {
+  border-left: 2px solid #c9c6c6;
+  padding-left: 20px;
+}
+
+.finalData div:first-child {
+  font-size: 16px;
+  color: #8a8787;
+}
+.finalData div:nth-child(2) {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #3c3c3c;
+  font-weight: bold;
+}
+.iconsdata {
+  font-size: 14px;
+}
